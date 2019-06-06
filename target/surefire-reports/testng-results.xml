@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="test" duration-ms="895" started-at="2019-06-06T06:51:29Z" finished-at="2019-06-06T06:51:30Z">
+    <groups>
+    </groups>
+    <test name="reporter" duration-ms="895" started-at="2019-06-06T06:51:29Z" finished-at="2019-06-06T06:51:30Z">
+      <class name="com.tsing.postMethod">
+        <test-method status="PASS" signature="postWithParam()[pri:0, instance:com.tsing.postMethod@7ca48474]" name="postWithParam" duration-ms="117" started-at="2019-06-06T06:51:30Z" finished-at="2019-06-06T06:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postWithParam -->
+      </class> <!-- com.tsing.postMethod -->
+      <class name="com.tsing.getMethod">
+        <test-method status="PASS" signature="getCookieTest()[pri:0, instance:com.tsing.getMethod@13a57a3b]" name="getCookieTest" duration-ms="709" started-at="2019-06-06T06:51:29Z" finished-at="2019-06-06T06:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCookieTest -->
+        <test-method status="PASS" signature="getWithCookie()[pri:0, instance:com.tsing.getMethod@13a57a3b]" name="getWithCookie" duration-ms="36" started-at="2019-06-06T06:51:30Z" depends-on-methods="com.tsing.getMethod.getCookieTest" finished-at="2019-06-06T06:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWithCookie -->
+      </class> <!-- com.tsing.getMethod -->
+    </test> <!-- reporter -->
+  </suite> <!-- test -->
+</testng-results>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="test">
+    <test name="reporter">
+        <classes>
+            <class name="com.tsing.getMethod">
+                <module name="getCookieTest"/>
+                <module name="getWithCookie"/>
+            </class>
+            <class name="com.tsing.postMethod">
+                <module name="postWithParam"></module>
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <!--
+        <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"></listener>
+        -->
+        <listener class-name="com.tsing.config.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>
