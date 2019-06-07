@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe08f7b8-b280-4904-b489-15bd71410c6d" name="Default Changelist" comment="Idea中提交">
+    <list default="true" id="fe08f7b8-b280-4904-b489-15bd71410c6d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsing/getMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsing/getMethod.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,13 +21,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
+            <state relative-caret-position="880">
               <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="22">
@@ -36,11 +36,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tsing/getMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="38" column="29" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="29" />
+            <state relative-caret-position="489">
+              <caret line="75" column="8" lean-forward="true" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,12 +96,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/tsing/getMethod.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tsing/postMethod.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tsing/config/ExtentTestNGIReporterListener.java" />
         <option value="$PROJECT_DIR$/src/main/resources/testng.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tsing/Demo1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tsing/Demo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tsing/getMethod.java" />
       </list>
     </option>
   </component>
@@ -109,10 +114,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="163" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-16" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="1649" />
     <option name="height" value="789" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -122,7 +127,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,6 +185,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,6 +216,50 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="TestNG.getMethod.getParamTest">
+    <configuration name="Demo.t1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Interface_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tsing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tsing" />
+      <option name="MAIN_CLASS_NAME" value="com.tsing.Demo" />
+      <option name="METHOD_NAME" value="t1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="getMethod.getParamTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Interface_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tsing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tsing" />
+      <option name="MAIN_CLASS_NAME" value="com.tsing.getMethod" />
+      <option name="METHOD_NAME" value="getParamTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.getMethod.getParamTest" />
+        <item itemvalue="TestNG.Demo.t1" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -223,7 +272,8 @@
       <updated>1559699379760</updated>
       <workItem from="1559699383824" duration="3826000" />
       <workItem from="1559795766396" duration="7839000" />
-      <workItem from="1559864323419" duration="872000" />
+      <workItem from="1559864323419" duration="3054000" />
+      <workItem from="1559893811870" duration="3115000" />
     </task>
     <task id="LOCAL-00001" summary="Idea中提交">
       <created>1559865217024</created>
@@ -239,28 +289,17 @@
       <option name="project" value="LOCAL" />
       <updated>1559865442671</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Idea中提交">
+      <created>1559865565937</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559865565937</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="getMethod_getWithCookie - 2019.06.06 at 13h 45m 36s.xml">
-      <configuration name="getMethod.getWithCookie" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="postMethod_postWithParam - 2019.06.06 at 13h 46m 19s.xml">
-      <configuration name="postMethod.postWithParam" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="postMethod_postWithParam - 2019.06.06 at 14h 15m 31s.xml">
-      <configuration name="postMethod.postWithParam" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="postMethod_postWithParam - 2019.06.06 at 14h 17m 25s.xml">
-      <configuration name="postMethod.postWithParam" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="postMethod_postWithParam - 2019.06.06 at 14h 17m 51s.xml">
-      <configuration name="postMethod.postWithParam" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="postMethod_postWithParam - 2019.06.06 at 14h 18m 39s.xml">
-      <configuration name="postMethod.postWithParam" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="postMethod_postWithParam - 2019.06.06 at 14h 19m 29s.xml">
       <configuration name="postMethod.postWithParam" configurationId="TestNG" />
     </history-entry>
@@ -273,9 +312,27 @@
     <history-entry file="_Users_kevin_Java_Sample_Interface_test_src_main_resources_testng_xml - 2019.06.06 at 14h 39m 43s.xml">
       <configuration name="/Users/kevin/Java_Sample/Interface_test/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="getMethod_getParamTest - 2019.06.07 at 16h 21m 00s.xml">
+      <configuration name="getMethod.getParamTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="getMethod_getParamTest - 2019.06.07 at 16h 22m 13s.xml">
+      <configuration name="getMethod.getParamTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Demo_t1 - 2019.06.07 at 16h 32m 49s.xml">
+      <configuration name="Demo.t1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="getMethod_getParamTest - 2019.06.07 at 16h 38m 12s.xml">
+      <configuration name="getMethod.getParamTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="getMethod_getParamTest - 2019.06.07 at 16h 48m 31s.xml">
+      <configuration name="getMethod.getParamTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="getMethod_getParamTest - 2019.06.07 at 16h 49m 22s.xml">
+      <configuration name="getMethod.getParamTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12537000" />
+    <option name="totallyTimeSpent" value="17834000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -287,10 +344,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="793" extended-state="6" />
+    <frame x="-90" y="23" width="1649" height="789" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22650902" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -300,18 +357,18 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.57020056" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4045911" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952926" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23965763" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.23965763" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32998565" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.31850788" />
       <window_info anchor="bottom" id="Spring" order="14" weight="0.32952926" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -363,6 +420,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Idea中提交" />
     <option name="LAST_COMMIT_MESSAGE" value="Idea中提交" />
@@ -370,18 +437,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
+        <state relative-caret-position="880">
           <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tsing/postMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -399,17 +456,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tsing/getMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="38" column="29" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tsing/postMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tsing/Demo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tsing/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tsing/getMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="75" column="8" lean-forward="true" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
