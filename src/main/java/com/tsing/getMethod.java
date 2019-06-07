@@ -53,7 +53,7 @@ public class getMethod {
 
     @Test
     public void getParamTest() throws Exception {
-        client = HttpClients.createDefault();
+        client = HttpClients.custom().setDefaultCookieStore(cookieStore).build();
 //        第一种添加参数的方式
 //        URI uri = new URIBuilder("http://localhost:8890/get/with/param")
 //                .setParameter("startPage", "1")
