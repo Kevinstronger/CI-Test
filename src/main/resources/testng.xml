@@ -5,9 +5,10 @@
             <class name="com.tsing.getMethod">
                 <module name="getCookieTest"/>
                 <module name="getWithCookie"/>
+                <module name="getParamTest"/>
             </class>
             <class name="com.tsing.postMethod">
-                <module name="postWithParam"></module>
+                <module name="postWithParam"/>
             </class>
         </classes>
     </test>
